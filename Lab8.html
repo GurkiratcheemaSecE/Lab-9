@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Photo Gallery</title>
+<link rel="stylesheet" href="Lab8.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="Lab8.js"></script>
+</head>
+<body>
+<header>
+<h1>Photo Gallery Of Different Type of art</h1>
+</header>
+<section id="buttons">
+<button class="btn" data-filter="all">All</button>
+<button class="btn" data-filter="Expressionism">Expressionism</button>
+<button class="btn" data-filter="Abstract">Abstract</button>
+<button class="btn" data-filter="Surrealism">Surrealism</button>
+<button class="btn" data-filter="Oil">Oil</button>
+</section>
+<section id="gallery">
+<div id="gallery-Expressionism">
+<img src="https://cdn.britannica.com/78/43678-050-F4DC8D93/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg">
+<img src="https://www.thoughtco.com/thmb/3BdVAvaa-3dTo-hQKxAEiBxQz9c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SueBond-13VanGoghSelfP-Stra-56a6e35b5f9b58b7d0e54bca.jpg">
+</div>
+<div id="gallery-Abstract">
+<img src="https://www.adorama.com/alc/wp-content/uploads/2020/10/abstract-photography-design-feature.jpg">
+<img src="https://thevirtualinstructor.com/blog/wp-content/uploads/2013/08/understanding-abstract-art.jpg">
+</div>
+<div id="gallery-Surrealism">
+<img src="https://sparksgallery.com/wp-content/uploads/2023/06/surrealism-art-by-Rene-Magritte.jpg">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*qyhua3giJFAx_kOdFoWHzw.jpeg">
+</div>
+<div id="gallery-Oil">
+<img src="https://i.etsystatic.com/17358183/r/il/9b69d2/4755012087/il_570xN.4755012087_n0fh.jpg">
+<img src="https://cdn.britannica.com/32/3732-050-1AFCB2CB/Portrait-Couple-oil-canvas-Isaac-Rebecca-Rembrandt.jpg">
+</div>
+</section>
+<div id="lightbox-overlay">
+    <div id="lightbox-content">
+        <span id="lightbox-close">&times;</span>
+        <img id="lightbox-image" src="" alt="Large Image">
+    </div>
+
+</body>
+</html>
